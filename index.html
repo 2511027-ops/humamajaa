@@ -6,7 +6,7 @@
       name="viewport"
       content="width=device-width, initial-scale=1.0"
     />
-    <title>Humaam Bus Dealer | Official Partner Premium Chassis</title>
+    <title>HUMAAM BUS TRADING | Authorized Premium Dealer</title>
 
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
@@ -17,362 +17,359 @@
       rel="stylesheet"
     />
     <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link
       href="https://unpkg.com/aos@2.3.1/dist/aos.css"
       rel="stylesheet"
     />
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      href="styles.css"
     />
-
-    <style>
-      :root {
-        --gold: #d4af37;
-        --dark: #0a0a0a;
-        --mercy-color: #000000;
-        --hino-color: #e30613;
-        --scania-color: #041e42;
-        --volvo-color: #003087;
-      }
-
-      body {
-        font-family: 'Poppins', sans-serif;
-        overflow-x: hidden;
-      }
-
-      /* Emblem Section Styling */
-      .emblem-section {
-        background: #f8f9fa;
-        padding: 60px 0;
-        border-top: 1px solid #ddd;
-        border-bottom: 1px solid #ddd;
-      }
-
-      .emblem-container {
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        flex-wrap: wrap;
-        gap: 30px;
-      }
-
-      .emblem-card {
-        text-align: center;
-        transition: 0.3s;
-        filter: grayscale(100%);
-        opacity: 0.6;
-      }
-
-      .emblem-card:hover {
-        filter: grayscale(0%);
-        opacity: 1;
-        transform: scale(1.1);
-      }
-
-      .emblem-card img {
-        width: 120px;
-        height: auto;
-        margin-bottom: 10px;
-      }
-
-      .emblem-card span {
-        display: block;
-        font-weight: 800;
-        font-size: 0.9rem;
-        color: #444;
-        text-transform: uppercase;
-      }
-
-      /* Bus Card Custom */
-      .bus-card {
-        border: none;
-        border-radius: 20px;
-        overflow: hidden;
-        box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
-        transition: 0.4s;
-        background: #fff;
-        height: 100%;
-      }
-      .img-box {
-        position: relative;
-        height: 220px;
-      }
-      .img-box img {
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-      }
-
-      /* Karoseri Tag */
-      .tag-karoseri {
-        position: absolute;
-        top: 15px;
-        left: 15px;
-        background: var(--gold);
-        color: black;
-        padding: 5px 15px;
-        font-weight: bold;
-        border-radius: 5px;
-        font-size: 0.75rem;
-      }
-
-      .price-text {
-        font-size: 1.4rem;
-        font-weight: 800;
-        color: var(--dark);
-      }
-
-      .btn-wa {
-        background: #25d366;
-        color: white;
-        border: none;
-        padding: 12px;
-        border-radius: 10px;
-        font-weight: 600;
-        width: 100%;
-        display: block;
-        text-align: center;
-        text-decoration: none;
-      }
-    </style>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top transition">
       <div class="container">
         <a
-          class="navbar-brand fw-bold"
+          class="navbar-brand fw-bold fs-3"
           href="#"
-          >HUMAAM<span class="text-warning">BUS</span></a
         >
+          <i class="fas fa-bus text-warning me-2"></i>HUMAAM<span class="text-warning">BUS</span>
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse"
+          id="navbarNav"
+        >
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a
+                class="nav-link px-3"
+                href="#home"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link px-3"
+                href="#tentang"
+                >About</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link px-3"
+                href="#produk"
+                >Unit Ready</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link btn btn-warning text-dark ms-lg-3 px-4 fw-bold shadow"
+                href="#kontak"
+                >HUBUNGI KAMI</a
+              >
+            </li>
+          </ul>
+        </div>
       </div>
     </nav>
 
-    <section class="emblem-section">
-      <div class="container text-center mb-5">
-        <h6 class="text-muted fw-bold">AUTHORIZED CHASSIS PARTNER</h6>
-      </div>
-      <div class="container">
-        <div class="emblem-container">
-          <div
-            class="emblem-card"
-            data-aos="fade-up"
+    <header
+      id="home"
+      class="hero-section"
+    >
+      <div
+        class="container text-center text-white"
+        data-aos="zoom-in"
+      >
+        <h6 class="text-warning fw-bold mb-3">INDONESIA'S NO. 1 BUS DISTRIBUTOR</h6>
+        <h1 class="display-2 fw-bold mb-4">
+          MENGUASAI SETIAP <br />
+          <span class="text-warning">PERJALANAN</span>
+        </h1>
+        <p class="lead mb-5 opacity-75">Mitra Resmi Sasis Premium: Scania, Mercedes-Benz, Volvo, dan Hino.</p>
+        <div class="d-flex justify-content-center gap-3">
+          <a
+            href="#produk"
+            class="btn btn-warning btn-lg px-5 py-3 fw-bold rounded-pill"
+            >CEK KATALOG</a
           >
+          <a
+            href="#tentang"
+            class="btn btn-outline-light btn-lg px-5 py-3 rounded-pill"
+            >TENTANG KAMI</a
+          >
+        </div>
+      </div>
+    </header>
+
+    <section class="py-4 bg-dark-secondary border-bottom border-secondary">
+      <div class="container">
+        <div class="row align-items-center justify-content-center g-5 grayscale">
+          <div class="col-4 col-md-2 text-center">
             <img
               src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Mercedes-Benz_Logo_2010.svg/1024px-Mercedes-Benz_Logo_2010.svg.png"
+              height="50"
               alt="Mercy"
             />
-            <span>Mercedes-Benz</span>
+          </div>
+          <div class="col-4 col-md-2 text-center">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Hino_Logo.svg/1200px-Hino_Logo.svg.png"
+              height="40"
+              alt="Hino"
+            />
+          </div>
+          <div class="col-4 col-md-2 text-center">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/en/thumb/3/36/Scania-Logo.svg/1200px-Scania-Logo.svg.png"
+              height="60"
+              alt="Scania"
+            />
+          </div>
+          <div class="col-4 col-md-2 text-center">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Volvo_Logo.svg/1200px-Volvo_Logo.svg.png"
+              height="40"
+              alt="Volvo"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section
+      id="tentang"
+      class="py-5 bg-dark text-white"
+    >
+      <div class="container py-5">
+        <div class="row align-items-center g-5">
+          <div
+            class="col-md-6"
+            data-aos="fade-right"
+          >
+            <div class="position-relative">
+              <img
+                src="https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?q=80&w=1000"
+                class="img-fluid rounded-4 shadow-lg"
+                alt="Pabrik Bus"
+              />
+              <div class="experience-badge">15+ Tahun Pengalaman</div>
+            </div>
           </div>
           <div
-            class="emblem-card"
+            class="col-md-6"
+            data-aos="fade-left"
+          >
+            <h2 class="display-5 fw-bold mb-4">
+              Dealer Sasis & <br />
+              <span class="text-warning">Karoseri Terpercaya</span>
+            </h2>
+            <p class="text-white-50 fs-5 mb-4">Kami bukan sekadar penjual bus, kami adalah konsultan transportasi Anda. Dengan fokus pada sasis Karoseri papan atas Indonesia, kami menjamin unit yang kokoh, aman, dan mewah.</p>
+            <div class="row">
+              <div class="col-6 mb-3"><i class="fas fa-check-circle text-warning me-2"></i> Unit Ready Stock</div>
+              <div class="col-6 mb-3"><i class="fas fa-check-circle text-warning me-2"></i> Custom Karoseri</div>
+              <div class="col-6 mb-3"><i class="fas fa-check-circle text-warning me-2"></i> Sparepart Original</div>
+              <div class="col-6 mb-3"><i class="fas fa-check-circle text-warning me-2"></i> Layanan Aftersales</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section
+      id="produk"
+      class="py-5 bg-black"
+    >
+      <div class="container py-5">
+        <div
+          class="text-center mb-5"
+          data-aos="fade-up"
+        >
+          <h2 class="display-4 fw-bold text-white">KATALOG <span class="text-warning">PREMIUM</span></h2>
+          <p class="text-white-50">Unit terbaik dengan spesifikasi tinggi siap mengaspal.</p>
+        </div>
+
+        <div class="row g-4">
+          <div
+            class="col-md-4"
+            data-aos="fade-up"
+          >
+            <div class="bus-card">
+              <div class="img-box">
+                <span class="tag-label">ADIPUTRO</span>
+                <img
+                  src="https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?w=600"
+                  alt="Scania"
+                />
+              </div>
+              <div class="card-body-custom">
+                <h4 class="fw-bold">Scania P320 Jetbus 5</h4>
+                <p class="text-white-50 small">Kapasitas 50 Seat, Air Suspension, Full Entertainment.</p>
+                <div class="price-box">Mulai Rp 1.95 M</div>
+                <a
+                  href="#kontak"
+                  class="btn btn-warning w-100 mt-3 fw-bold"
+                  >CEK DETAIL</a
+                >
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-md-4"
             data-aos="fade-up"
             data-aos-delay="100"
           >
-            <img
-              src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Hino_Logo.svg/1200px-Hino_Logo.svg.png"
-              alt="Hino"
-            />
-            <span>Hino Motors</span>
+            <div class="bus-card">
+              <div class="img-box">
+                <span class="tag-label">LAKSANA</span>
+                <img
+                  src="https://images.unsplash.com/photo-1570125909232-eb263c188f7e?w=600"
+                  alt="Hino"
+                />
+              </div>
+              <div class="card-body-custom">
+                <h4 class="fw-bold">Hino RM 280 SR3</h4>
+                <p class="text-white-50 small">Euro 4 Emission, Wide Air Suspension, Space Frame.</p>
+                <div class="price-box">Mulai Rp 1.80 M</div>
+                <a
+                  href="#kontak"
+                  class="btn btn-warning w-100 mt-3 fw-bold"
+                  >CEK DETAIL</a
+                >
+              </div>
+            </div>
           </div>
           <div
-            class="emblem-card"
+            class="col-md-4"
             data-aos="fade-up"
             data-aos-delay="200"
           >
-            <img
-              src="https://upload.wikimedia.org/wikipedia/en/thumb/3/36/Scania-Logo.svg/1200px-Scania-Logo.svg.png"
-              alt="Scania"
-            />
-            <span>Scania Group</span>
+            <div class="bus-card">
+              <div class="img-box">
+                <span class="tag-label">ADIPUTRO</span>
+                <img
+                  src="https://images.unsplash.com/photo-1632276510397-a46c3bdd30d8?w=600"
+                  alt="Mercy"
+                />
+              </div>
+              <div class="card-body-custom">
+                <h4 class="fw-bold">Mercy O500RS 1836</h4>
+                <p class="text-white-50 small">Sasis Premium, ABS & Retarder, Kursi Eksekutif.</p>
+                <div class="price-box">Mulai Rp 2.10 M</div>
+                <a
+                  href="#kontak"
+                  class="btn btn-warning w-100 mt-3 fw-bold"
+                  >CEK DETAIL</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section
+      id="kontak"
+      class="py-5 bg-dark"
+    >
+      <div class="container py-5">
+        <div class="row g-5">
+          <div
+            class="col-md-5 text-white"
+            data-aos="fade-right"
+          >
+            <h2 class="display-6 fw-bold mb-4">Konsultasi <span class="text-warning">Gratis</span></h2>
+            <p class="text-white-50 mb-5">Siap merintis bisnis transportasi? Hubungi tim ahli kami sekarang.</p>
+            <div class="d-flex mb-4">
+              <div class="icon-circle me-3"><i class="fas fa-map-marker-alt"></i></div>
+              <div>
+                <h5>Alamat</h5>
+                <p class="text-white-50">Jl. Bus Indonesia No. 123, Jakarta</p>
+              </div>
+            </div>
+            <div class="d-flex mb-4">
+              <div class="icon-circle me-3"><i class="fas fa-phone-alt"></i></div>
+              <div>
+                <h5>Telepon</h5>
+                <p class="text-white-50">021-12345678</p>
+              </div>
+            </div>
           </div>
           <div
-            class="emblem-card"
-            data-aos="fade-up"
-            data-aos-delay="300"
+            class="col-md-7"
+            data-aos="fade-left"
           >
-            <img
-              src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Volvo_Logo.svg/1200px-Volvo_Logo.svg.png"
-              alt="Volvo"
-            />
-            <span>Volvo Buses</span>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="container py-5">
-      <h2
-        class="text-center fw-bold mb-5"
-        data-aos="fade-down"
-      >
-        LINE-UP UNIT PREMIUM
-      </h2>
-      <div class="row g-4">
-        <div
-          class="col-md-3"
-          data-aos="fade-up"
-        >
-          <div class="bus-card">
-            <div class="img-box">
-              <span class="tag-karoseri">ADIPUTRO</span>
-              <img
-                src="https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?w=500"
-                alt="Bus"
-              />
-            </div>
-            <div class="card-body">
-              <h6 class="text-primary fw-bold mb-1">Mercedes-Benz 1626 S</h6>
-              <p class="small text-muted mb-3">Jetbus 5 SHD | Air Suspension</p>
-              <div class="price-text">Rp 1.95 M</div>
-              <a
-                href="#"
-                class="btn-wa mt-3"
-                ><i class="fab fa-whatsapp me-1"></i> Hubungi</a
-              >
-            </div>
-          </div>
-        </div>
-
-        <div
-          class="col-md-3"
-          data-aos="fade-up"
-          data-aos-delay="100"
-        >
-          <div class="bus-card">
-            <div class="img-box">
-              <span class="tag-karoseri">LAKSANA</span>
-              <img
-                src="https://images.unsplash.com/photo-1570125909232-eb263c188f7e?w=500"
-                alt="Bus"
-              />
-            </div>
-            <div class="card-body">
-              <h6 class="text-danger fw-bold mb-1">Hino RM 280 Euro 4</h6>
-              <p class="small text-muted mb-3">SR3 Panorama | Space Frame</p>
-              <div class="price-text">Rp 2.10 M</div>
-              <a
-                href="#"
-                class="btn-wa mt-3"
-                ><i class="fab fa-whatsapp me-1"></i> Hubungi</a
-              >
-            </div>
-          </div>
-        </div>
-
-        <div
-          class="col-md-3"
-          data-aos="fade-up"
-          data-aos-delay="200"
-        >
-          <div class="bus-card">
-            <div class="img-box">
-              <span class="tag-karoseri">ADIPUTRO</span>
-              <img
-                src="https://images.unsplash.com/photo-1632276510397-a46c3bdd30d8?w=500"
-                alt="Bus"
-              />
-            </div>
-            <div class="card-body">
-              <h6
-                class="fw-bold mb-1"
-                style="color: var(--scania-color)"
-              >
-                Scania K410iB
-              </h6>
-              <p class="small text-muted mb-3">Jetbus 5 SDD (Double Decker)</p>
-              <div class="price-text">Rp 3.80 M</div>
-              <a
-                href="#"
-                class="btn-wa mt-3"
-                ><i class="fab fa-whatsapp me-1"></i> Hubungi</a
-              >
-            </div>
-          </div>
-        </div>
-
-        <div
-          class="col-md-3"
-          data-aos="fade-up"
-          data-aos-delay="300"
-        >
-          <div class="bus-card">
-            <div class="img-box">
-              <span class="tag-karoseri">NEW ARMADA</span>
-              <img
-                src="https://images.unsplash.com/photo-1590362891991-f776e747a588?w=500"
-                alt="Bus"
-              />
-            </div>
-            <div class="card-body">
-              <h6
-                class="fw-bold mb-1"
-                style="color: var(--volvo-color)"
-              >
-                Volvo B11R 450HP
-              </h6>
-              <p class="small text-muted mb-3">Skylander R25 | Ultra High Deck</p>
-              <div class="price-text">Rp 4.25 M</div>
-              <a
-                href="#"
-                class="btn-wa mt-3"
-                ><i class="fab fa-whatsapp me-1"></i> Hubungi</a
-              >
+            <div class="contact-form shadow-lg">
+              <form action="#">
+                <div class="row g-3">
+                  <div class="col-md-6">
+                    <input
+                      type="text"
+                      class="form-control"
+                      placeholder="Nama Lengkap"
+                    />
+                  </div>
+                  <div class="col-md-6">
+                    <input
+                      type="email"
+                      class="form-control"
+                      placeholder="Email Aktif"
+                    />
+                  </div>
+                  <div class="col-12">
+                    <textarea
+                      class="form-control"
+                      rows="5"
+                      placeholder="Pesan Anda..."
+                    ></textarea>
+                  </div>
+                  <div class="col-12"><button class="btn btn-warning w-100 py-3 fw-bold">KIRIM PESAN</button></div>
+                </div>
+              </form>
             </div>
           </div>
         </div>
       </div>
     </section>
 
-    <section class="bg-dark text-white py-5">
-      <div class="container py-4">
-        <h3 class="fw-bold mb-4 text-warning">Spesifikasi Teknis Sasis</h3>
-        <div class="table-responsive">
-          <table class="table table-dark table-striped table-hover border-secondary">
-            <thead>
-              <tr>
-                <th>Parameter</th>
-                <th>Mercedes 1626 S</th>
-                <th>Hino RM 280</th>
-                <th>Scania K410iB</th>
-                <th>Volvo B11R</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>Kapasitas Mesin</td>
-                <td>6.374 cc</td>
-                <td>7.684 cc</td>
-                <td>13.000 cc</td>
-                <td>11.000 cc</td>
-              </tr>
-              <tr>
-                <td>Tenaga (HP)</td>
-                <td>260 HP</td>
-                <td>280 PS</td>
-                <td>410 HP</td>
-                <td>450 HP</td>
-              </tr>
-              <tr>
-                <td>Transmisi</td>
-                <td>Manual 6-Speed</td>
-                <td>Manual 6-Speed</td>
-                <td>Opticruise</td>
-                <td>I-Shift (Automatic)</td>
-              </tr>
-            </tbody>
-          </table>
+    <footer class="py-5 bg-black border-top border-secondary text-center text-white">
+      <div class="container">
+        <div class="mb-4">
+          <a
+            href="#"
+            class="text-white me-3 fs-4"
+            ><i class="fab fa-instagram"></i
+          ></a>
+          <a
+            href="#"
+            class="text-white me-3 fs-4"
+            ><i class="fab fa-facebook"></i
+          ></a>
+          <a
+            href="#"
+            class="text-white fs-4"
+            ><i class="fab fa-youtube"></i
+          ></a>
         </div>
+        <p class="mb-0 opacity-50">&copy; 2024 Humaam Bus Trading. Authorized Partner SMK Airlangga.</p>
       </div>
-    </section>
-
-    <footer class="bg-black text-white text-center py-4">
-      <p class="small opacity-50 mb-0">© 2024 Humaam Bus Dealer - Presentasi Business Plan SMK Airlangga</p>
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
-      AOS.init();
+      AOS.init({ duration: 1000, once: true });
     </script>
   </body>
 </html>
